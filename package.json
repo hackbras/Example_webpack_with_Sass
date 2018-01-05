@@ -1,0 +1,23 @@
+{
+    "name": "testeWebpack2",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "dev": "node_modules/.bin/webpack -d --watch"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "css-loader": "^0.28.7",
+        "extract-text-webpack-plugin": "^2.0.0-rc.0",
+        "html-webpack-plugin": "^2.30.1",
+        "node-sass": "^4.5.3",
+        "sass-loader": "^6.0.6",
+        "style-loader": "^0.18.2",
+        "ts-loader": "^2.3.7",
+        "webpack": "^2.7.0",
+        "webpack-dev-server": "^2.8.2"
+    }
+}
