@@ -1,2 +1,3 @@
 const css = require('./app.scss');
-console.log('teste 5');
+
+console.log('Hello from app.js');
