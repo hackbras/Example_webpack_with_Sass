@@ -1,31 +1,31 @@
 {
-  "name": "Webpack-starter",
-  "version": "1.0.0",
-  "description": "Webpack project starter",
-  "main": "index.js",
-  "scripts": {
-    "dev": "node_modules/.bin/webpack -d --watch",
-    "prod": "webpack -p"
-  },
-  "keywords": [],
-  "author": "Miquéias",
-  "license": "ISC",
-  "devDependencies": {
-    "babel-preset-es2015": "^6.24.1",
-    "babel-register": "^6.26.0",
-    "css-loader": "^0.28.7",
-    "extract-text-webpack-plugin": "^2.0.0-rc.0",
-    "html-loader": "^0.5.4",
-    "html-webpack-plugin": "^2.30.1",
-    "jsxobj": "^1.1.0",
-    "node-sass": "^4.5.3",
-    "pug": "^2.0.0-rc.4",
-    "pug-html-loader": "^1.1.5",
-    "pug-loader": "^2.3.0",
-    "sass-loader": "^6.0.6",
-    "style-loader": "^0.18.2",
-    "ts-loader": "^2.3.7",
-    "webpack": "^2.7.0",
-    "webpack-dev-server": "^2.8.2"
-  }
+    "name": "Webpack-starter",
+    "version": "1.0.0",
+    "description": "Webpack project starter",
+    "main": "app.js",
+    "scripts": {
+        "dev": "node_modules/.bin/webpack -d --watch",
+        "prod": "webpack -p"
+    },
+    "keywords": [],
+    "author": "Miquéias",
+    "license": "ISC",
+    "devDependencies": {
+        "babel-preset-es2015": "^6.24.1",
+        "babel-register": "^6.26.0",
+        "css-loader": "^0.28.7",
+        "extract-text-webpack-plugin": "^2.0.0-rc.0",
+        "html-loader": "^0.5.4",
+        "html-webpack-plugin": "^2.30.1",
+        "jsxobj": "^1.1.0",
+        "node-sass": "^4.5.3",
+        "pug": "^2.0.0-rc.4",
+        "pug-html-loader": "^1.1.5",
+        "pug-loader": "^2.3.0",
+        "sass-loader": "^6.0.6",
+        "style-loader": "^0.18.2",
+        "ts-loader": "^2.3.7",
+        "webpack": "^2.7.0",
+        "webpack-dev-server": "^2.8.2"
+    }
 }
