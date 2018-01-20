@@ -1,0 +1,22 @@
+{
+    "name": "Webpack-starter",
+    "version": "1.0.0",
+    "description": "Webpack project starter",
+    "main": "app.js",
+    "scripts": {
+        "dev": "webpack-dev-server",
+        "prod": "webpack -p"
+    },
+    "keywords": [],
+    "author": "Miquéias",
+    "license": "ISC",
+    "devDependencies": {
+        "css-loader": "^0.28.7",
+        "extract-text-webpack-plugin": "^3.0.2",
+        "node-sass": "^4.5.3",
+        "sass-loader": "^6.0.6",
+        "style-loader": "^0.18.2",
+        "webpack": "^3.10.0",
+        "webpack-dev-server": "^2.10.0"
+    }
+}
