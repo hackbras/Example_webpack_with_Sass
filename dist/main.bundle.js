@@ -65,25 +65,17 @@
 /************************************************************************/
 /******/ ([
 /* 0 */
-/*!********************!*\
-  !*** ./src/app.js ***!
-  \********************/
-/*! dynamic exports provided */
-/*! all exports used */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("const css = __webpack_require__(/*! ./app.sass */ 1);\r\n\r\nconsole.log('Hello from app.js');//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiMC5qcyIsInNvdXJjZXMiOlsid2VicGFjazovLy8uL3NyYy9hcHAuanM/N2FjOSJdLCJzb3VyY2VzQ29udGVudCI6WyJjb25zdCBjc3MgPSByZXF1aXJlKCcuL2FwcC5zYXNzJyk7XHJcblxyXG5jb25zb2xlLmxvZygnSGVsbG8gZnJvbSBhcHAuanMnKTtcblxuXG4vLy8vLy8vLy8vLy8vLy8vLy9cbi8vIFdFQlBBQ0sgRk9PVEVSXG4vLyAuL3NyYy9hcHAuanNcbi8vIG1vZHVsZSBpZCA9IDBcbi8vIG1vZHVsZSBjaHVua3MgPSAwIl0sIm1hcHBpbmdzIjoiQUFBQTtBQUNBO0FBQ0EiLCJzb3VyY2VSb290IjoiIn0=\n//# sourceURL=webpack-internal:///0\n");
+const css = __webpack_require__(1);
+
+console.log('Hello from app.js');
 
 /***/ }),
 /* 1 */
-/*!**********************!*\
-  !*** ./src/app.sass ***!
-  \**********************/
-/*! dynamic exports provided */
-/*! all exports used */
 /***/ (function(module, exports) {
 
-eval("// removed by extract-text-webpack-plugin//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiMS5qcyIsInNvdXJjZXMiOlsid2VicGFjazovLy8uL3NyYy9hcHAuc2Fzcz8zNTM2Il0sInNvdXJjZXNDb250ZW50IjpbIi8vIHJlbW92ZWQgYnkgZXh0cmFjdC10ZXh0LXdlYnBhY2stcGx1Z2luXG5cblxuLy8vLy8vLy8vLy8vLy8vLy8vXG4vLyBXRUJQQUNLIEZPT1RFUlxuLy8gLi9zcmMvYXBwLnNhc3Ncbi8vIG1vZHVsZSBpZCA9IDFcbi8vIG1vZHVsZSBjaHVua3MgPSAwIl0sIm1hcHBpbmdzIjoiQUFBQSIsInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///1\n");
+// removed by extract-text-webpack-plugin
 
 /***/ })
 /******/ ]);

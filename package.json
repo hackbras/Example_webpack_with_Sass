@@ -4,8 +4,8 @@
     "description": "Webpack project starter",
     "main": "app.js",
     "scripts": {
-        "dev": "webpack-dev-server",
-        "prod": "webpack -p"
+        "dev": "webpack-dev-server --colors --progress",
+        "prod": "webpack -w --colors --progress --display-error-details"
     },
     "keywords": [],
     "author": "Miquéias",
