@@ -21,6 +21,10 @@ module.exports = {
     },
     module: {
         rules: [{
+                test: /\.pug$/,
+                use: ['html-loader', 'pug-html-loader']
+            },
+            {
                 test: /\.sass/,
                 //use: ExtractTextPlugin.extract(['style-loader', 'css-loader', 'sass-loader'])
                 use: ExtractTextPlugin.extract({
@@ -28,24 +32,13 @@ module.exports = {
                     use: ['css-loader', 'sass-loader'],
                     publicPath: "/dist"
                 })
-            }]
-            // ,{
-            //     test: /\.pug/,
-            //     use: ExtractTextPlugin.extract({
-            //         fallbackloader: 'html-loader',
-            //         loader: ['pug-html-loader', 'pug-loader'],
-            //         publicPath: '/dist'
-            //     })
-            // }
+            }
+        ]
     },
     plugins: [
         new HtmlWebpackPlugin({
             title: 'Project Demo',
-            // minify: {
-            //     collapseWhitespace: true
-            // },
-            // hash: true,
-            template: './src/index.html'
+            template: './src/index.pug'
         }),
         new ExtractTextPlugin({
             filename: 'bundle.css',
